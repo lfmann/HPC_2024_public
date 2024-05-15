@@ -3,8 +3,8 @@ function debug(N::Int)
     for n = 1:N
         s[n] = rand()
     end
-    S::String = sum(s) 
+    S = sum(s) 
     return S/N
 end
 
-@enter debug(100)
+debug(100)

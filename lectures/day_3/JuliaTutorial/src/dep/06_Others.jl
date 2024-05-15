@@ -54,7 +54,7 @@ using Printf
 # first an integer, second a float with two decimals, third a character
 @printf("%d %.2f % c\n", 32, 34.51, 'a')
 # Now a composed string
-name = "Jesus"
+name = "Lukas"
 @printf("%s likes economics \n", name)
 # It will print with color
 printstyled(a;color=:red)
