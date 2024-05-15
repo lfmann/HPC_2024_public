@@ -1,0 +1,32 @@
+name = "JuliaTutorial"
+uuid = "0d3209f5-ffcb-454d-ad0c-7d6cf403844e"
+authors = ["Lukas Mann"]
+version = "1.0.0-DEV"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ProfileSVG = "132c30aa-f267-4189-9183-c8a63c7e05e6"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
